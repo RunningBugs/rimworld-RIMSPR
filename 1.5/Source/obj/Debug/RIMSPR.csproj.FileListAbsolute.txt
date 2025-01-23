@@ -1,0 +1,7 @@
+/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Assemblies/RIMSPR.dll
+/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/obj/Debug/RIMSPR.csproj.AssemblyReference.cache
+/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/obj/Debug/RIMSPR.GeneratedMSBuildEditorConfig.editorconfig
+/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/obj/Debug/RIMSPR.AssemblyInfoInputs.cache
+/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/obj/Debug/RIMSPR.AssemblyInfo.cs
+/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/obj/Debug/RIMSPR.csproj.CoreCompileInputs.cache
+/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/obj/Debug/RIMSPR.dll

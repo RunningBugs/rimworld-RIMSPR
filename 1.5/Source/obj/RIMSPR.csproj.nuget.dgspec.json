@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/RIMSPR.csproj": {}
+  },
+  "projects": {
+    "/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/RIMSPR.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/RIMSPR.csproj",
+        "projectName": "RIMSPR",
+        "projectPath": "/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/RIMSPR.csproj",
+        "packagesPath": "/home/lisanhu/.nuget/packages/",
+        "outputPath": "/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lisanhu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Krafs.Rimworld.Ref": {
+              "target": "Package",
+              "version": "[1.5.*, )"
+            },
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.3.*, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "UnlimitedHugs.Rimworld.HugsLib": {
+              "target": "Package",
+              "version": "[10.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/lisanhu/.dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
