@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RIMSPR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0.0+e6ff673dd1a062769b74e29f87a2560f4895edfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("RIMSPR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RIMSPR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]

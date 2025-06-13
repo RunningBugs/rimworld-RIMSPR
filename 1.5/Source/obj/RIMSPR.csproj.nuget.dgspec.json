@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/RIMSPR.csproj": {}
+    "/home/lisanhu/mine/workspace/rimworld/Mods/RIMSPR-forked/1.5/Source/RIMSPR.csproj": {}
   },
   "projects": {
-    "/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/RIMSPR.csproj": {
+    "/home/lisanhu/mine/workspace/rimworld/Mods/RIMSPR-forked/1.5/Source/RIMSPR.csproj": {
       "version": "0.1.0",
       "restore": {
-        "projectUniqueName": "/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/RIMSPR.csproj",
+        "projectUniqueName": "/home/lisanhu/mine/workspace/rimworld/Mods/RIMSPR-forked/1.5/Source/RIMSPR.csproj",
         "projectName": "RIMSPR",
-        "projectPath": "/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/RIMSPR.csproj",
+        "projectPath": "/home/lisanhu/mine/workspace/rimworld/Mods/RIMSPR-forked/1.5/Source/RIMSPR.csproj",
         "packagesPath": "/home/lisanhu/.nuget/packages/",
-        "outputPath": "/home/lisanhu/.local/share/Steam/steamapps/workshop/content/294100/3096937192/1.5/Source/obj/",
+        "outputPath": "/home/lisanhu/mine/workspace/rimworld/Mods/RIMSPR-forked/1.5/Source/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/lisanhu/.nuget/NuGet/NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -57,7 +62,7 @@
               "version": "[10.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/lisanhu/.dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/lisanhu/.dotnet/sdk/8.0.405/RuntimeIdentifierGraph.json"
         }
       }
     }
