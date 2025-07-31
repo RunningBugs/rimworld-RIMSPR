@@ -22,7 +22,7 @@ public enum RIMSPERLabState
 }
 
 [StaticConstructorOnStartup]
-public class Building_RimsprLab : Building, IThingHolder, IStoreSettingsParent
+public class Building_RimsprLab : Building, IThingHolder, IStoreSettingsParent, IThingHolderTickable
 {
     [Unsaved] private CompPowerTrader? cachedPowerComp;
     [Unsaved] private CompRefuelable? cachedRefuelableComp;
@@ -323,6 +323,8 @@ public class Building_RimsprLab : Building, IThingHolder, IStoreSettingsParent
             return true;
         }
     }
+
+    public bool ShouldTickContents => false;
 
     public int GetRequiredCountOf(ThingDef thingDef)
     {
