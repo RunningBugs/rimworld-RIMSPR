@@ -88,11 +88,11 @@ public class Building_RimsprLab : Building, IThingHolder, IStoreSettingsParent, 
     //     base.DeSpawn(mode);
     // }
 
-    public void ResearchWorkDone(Pawn researcher, Building lab)
+    public void ResearchWorkDone(Pawn researcher, Building lab, int delta)
     {
         float statValue = researcher.GetStatValue(StatDefOf.ResearchSpeed);
         statValue *= lab.GetStatValue(StatDefOf.ResearchSpeedFactor);
-        statValue *= 0.00825f;
+        statValue *= 0.00825f * delta;
         workProg += statValue;
         lastUsedTick = Find.TickManager.TicksGame;
 

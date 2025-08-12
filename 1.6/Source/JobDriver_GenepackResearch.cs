@@ -26,7 +26,7 @@ public class JobDriver_GenepackResearch : JobDriver
         {
             Pawn actor = work.actor;
             Building_RimsprLab building = (Building_RimsprLab)actor.CurJob.targetA.Thing;
-            building.ResearchWorkDone(actor, building);
+            building.ResearchWorkDone(actor, building, delta);
             actor.skills.Learn(SkillDefOf.Intellectual, 0.1f * delta);
             actor.GainComfortFromCellIfPossible(delta, chairsOnly: true);
         };
