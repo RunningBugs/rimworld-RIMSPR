@@ -39,6 +39,7 @@ public class JobDriver_GenepackResearch : JobDriver
         // };
         work.defaultCompleteMode = ToilCompleteMode.Never;
         work.WithEffect(EffecterDefOf.Research, TargetIndex.A);
+        work.WithProgressBar(TargetIndex.A, () => ((Building_RimsprLab)job.targetA.Thing).ProgressPercent);
         work.FailOnCannotTouch(TargetIndex.A, PathEndMode.InteractionCell);
         work.FailOnDespawnedNullOrForbidden(TargetIndex.A);
         work.activeSkill = () => SkillDefOf.Intellectual;

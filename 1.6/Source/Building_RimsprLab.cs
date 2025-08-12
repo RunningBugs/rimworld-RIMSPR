@@ -43,6 +43,15 @@ public class Building_RimsprLab : Building, IThingHolder, IStoreSettingsParent, 
 
     public StorageSettings inputSettings;
 
+    public float ProgressPercent
+    {
+        get
+        {
+            if (workGoal <= 0f) return 0f;
+            return Mathf.Clamp01(workProg / workGoal);
+        }
+    }
+
     public override void PostMake()
     {
         base.PostMake();
@@ -60,24 +69,24 @@ public class Building_RimsprLab : Building, IThingHolder, IStoreSettingsParent, 
             base.PostPostMake();
     }
 
-    public override void DeSpawn(DestroyMode mode = DestroyMode.Vanish)
-    {
-        //sustainerWorking = null;
-        //if (progressBar != null)
-        //{
-        //    progressBar.Cleanup();
-        //    progressBar = null;
-        //}
+    // public override void DeSpawn(DestroyMode mode = DestroyMode.Vanish)
+    // {
+    //     //sustainerWorking = null;
+    //     //if (progressBar != null)
+    //     //{
+    //     //    progressBar.Cleanup();
+    //     //    progressBar = null;
+    //     //}
 
-        workGoal = -1f;
-        workProg = 0f;
-        lastUsedTick = -99999;
-        ingredientCount.Clear();
-        innerContainer.Clear();
-        nutrientGoal = -1f;
+    //     // workGoal = -1f;
+    //     // workProg = 0f;
+    //     // lastUsedTick = -99999;
+    //     // ingredientCount.Clear();
+    //     // innerContainer.Clear();
+    //     // nutrientGoal = -1f;
 
-        base.DeSpawn(mode);
-    }
+    //     base.DeSpawn(mode);
+    // }
 
     public void ResearchWorkDone(Pawn researcher, Building lab)
     {
