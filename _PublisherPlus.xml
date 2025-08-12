@@ -3,5 +3,7 @@
   <Excluded>
     <exclude>.claude</exclude>
     <exclude>.git</exclude>
+    <exclude>1.5/Source/obj</exclude>
+    <exclude>1.6/Source/obj</exclude>
   </Excluded>
 </Configuration>
